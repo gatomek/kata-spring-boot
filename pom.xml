@@ -17,5 +17,6 @@
 
     <modules>
         <module>interceptor</module>
+        <module>thymeleaf-uuid</module>
     </modules>
 </project>
