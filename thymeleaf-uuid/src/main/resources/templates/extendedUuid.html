@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="${#locale.toLanguageTag()}" >
+<head>
+    <meta charset="ISO-8859-1"/>
+    <title>UUID Generator</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous" />
+    <link th:href="@{/css/main.css}" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container my-2" align="center">
+        <header>
+            <image src="/logo.jpg" alt="Logo Image"></image>
+        </header>
+        <h3>UUID Generator</h3>
+
+        <table style="width:80%" border="1" class = "table table-striped table-responsive-md">
+            <thead>
+            <tr>
+                <th><span th:text="#{dict.name}" /></th>
+                <th><span th:text="#{dict.value}" /></th>
+                <th><span th:text="#{dict.action}" /></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>UUID</td>
+                <td>
+                    <div id="uuid"></div>
+                </td>
+                <td>
+                    <button th:onclick="uuidFragmentReload()" class="btn btn-success btn-block">Nowy</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Szczegoly:</td>
+                <td>
+                    <div th:if="${showDetails}">
+                        <div th:replace="~{fragments/details.html :: content}"></div>
+                    </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <div th:switch="${showDetails}">
+                        <p th:case="true">
+                            <a th:href="@{/extended-uuid(showDetails=1)}" class="btn btn-success btn-block">Odswiez</a>
+                        </p>
+                        <p th:case="false">
+                            <a th:href="@{/extended-uuid(showDetails=0)}" class="btn btn-success btn-block">Odswiez</a>
+                        </p>
+                        <p th:case="*">
+                            <a th:href="@{/extended-uuid}" class="btn btn-success btn-block">Odswiez</a>
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+            <tbody>
+            <tr>
+                <td>Data</td>
+                <td id="timestamp">
+                </td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+        <footer>
+            <script>
+            </script>
+
+            <script type="text/javascript" th:src="@{/js/main.js}"></script>
+
+            <!-- JQuery 3.7.1 -->
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+                    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+                    crossorigin="anonymous"></script>
+            <!-- Bootstrap 5.3.3. -->
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                    crossorigin="anonymous"></script>
+        </footer>
+    </div>
+</body>
+</html>

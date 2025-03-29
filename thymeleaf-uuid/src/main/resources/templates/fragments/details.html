@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" >
+    <body>
+        <div th:fragment="content">
+            <h3>Szczegóły</h3>
+            <ul th:each="item: ${features}">
+                <li th:text="${item}"></li>
+            </ul>
+        </div>
+    </body>
+</html>

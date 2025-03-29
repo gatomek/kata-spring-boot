@@ -9,9 +9,9 @@ import java.util.UUID;
 @Controller
 public class UuidController {
 
-    @GetMapping("/")
+    @GetMapping("/uuid")
     public String viewIndex(Model model) {
         model.addAttribute("uuid", UUID.randomUUID());
-        return "index";
+        return "uuid";
     }
 }
