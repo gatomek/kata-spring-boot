@@ -1,0 +1,13 @@
+body {
+    font-family: "Baskerville;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+strong {
+    font-weight: 700;
+    color: blue;
+}
