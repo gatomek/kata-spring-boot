@@ -18,5 +18,6 @@
     <modules>
         <module>interceptor</module>
         <module>thymeleaf-uuid</module>
+        <module>thymeleaf-thermometer-websocket</module>
     </modules>
 </project>
