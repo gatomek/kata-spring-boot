@@ -1,5 +1,5 @@
 const stompClient = new StompJs.Client({
-    brokerURL: '/temp'
+    brokerURL: '/thermo'
 });
 
 stompClient.onConnect = (frame) => {
