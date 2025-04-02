@@ -1,4 +1,3 @@
-
 const stompClient = new StompJs.Client({
     brokerURL: '/temp'
 });
@@ -22,11 +21,11 @@ stompClient.onStompError = (frame) => {
 };
 
 function setConnected(connected) {
-    console.log( "connected? " + connected)
+    console.log("connected? " + connected)
 
-    const tempElem = document.getElementById( "temp");
-    tempElem.classList.remove( "alert-success", "alert-danger");
-    tempElem.classList.add( connected ? "alert-success" : "alert-danger");
+    const tempElem = document.getElementById("temp");
+    tempElem.classList.remove("alert-success", "alert-danger");
+    tempElem.classList.add(connected ? "alert-success" : "alert-danger");
 
     tempElem.innerHTML = "---";
 }
@@ -42,7 +41,12 @@ function disconnect() {
 }
 
 function displayTemp(body) {
-    document.getElementById( "temp").innerHTML = JSON.parse( body).temp;
+    try {
+        document.getElementById("temp").innerHTML = JSON.parse(body).temp;
+    } catch (error) {
+        console.error('Failed to parse JSON:', error);
+        document.getElementById("temp").innerHTML = 'Error';
+    }
 }
 
 connect();
