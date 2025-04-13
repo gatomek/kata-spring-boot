@@ -20,5 +20,6 @@
         <module>thymeleaf-uuid</module>
         <module>thymeleaf-thermo-ws</module>
         <module>security-intro</module>
+        <module>security-basics</module>
     </modules>
 </project>
