@@ -1,0 +1,48 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw-jetbrains-plugin",
+  "elements": [
+    {
+      "id": "Dfeiutqqepi0mFBM-nZ8v",
+      "type": "text",
+      "x": 768,
+      "y": 189,
+      "width": 903.339111328125,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 2109705176,
+      "version": 3,
+      "versionNonce": 1808561064,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1744531367745,
+      "link": null,
+      "locked": false,
+      "text": "https://medium.com/@amrutha_20595/setting-up-openldap-server-with-docker-d38781c259b2",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "https://medium.com/@amrutha_20595/setting-up-openldap-server-with-docker-d38781c259b2",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
