@@ -25,31 +25,28 @@ public class SecurityConfig {
                 .csrf(CsrfConfigurer::disable)
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers(ALLOWED_PATHS).permitAll()
-                        .anyRequest().authenticated())
-                .formLogin(formLogin ->
-                        formLogin
-                                .loginPage("/login.html")
-                                .loginProcessingUrl("/perform_login")
+                        .anyRequest().authenticated()
                 )
-                .logout(logout ->
-                        logout
-                                .logoutUrl("/perform_logout")
-                                .logoutSuccessUrl("/login.html")
+                .formLogin(formLogin -> formLogin
+                        .loginPage("/login.html")
+                        .loginProcessingUrl("/perform_login")
+                )
+                .logout(logout -> logout
+                        .logoutUrl("/perform_logout")
+                        .logoutSuccessUrl("/login.html")
                 );
         return http.build();
     }
 
     @Bean
-    public UserDetailsService userDetailsService( PasswordEncoder passwordEncoder) {
-        User.UserBuilder builder = User.builder();
-
-        UserDetails user = builder
+    public UserDetailsService userDetailsService(PasswordEncoder passwordEncoder) {
+        UserDetails user = User.builder()
                 .username("user")
                 .password(passwordEncoder.encode("pass"))
                 .roles("USER")
                 .build();
 
-        UserDetails admin = builder
+        UserDetails admin = User.builder()
                 .username("admin")
                 .password(passwordEncoder.encode("pass"))
                 .roles("USER", "ADMIN")
