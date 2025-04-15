@@ -19,6 +19,7 @@
         <module>interceptor</module>
         <module>thymeleaf-uuid</module>
         <module>thymeleaf-thermo-ws</module>
+        <module>thymeleaf-thermo-sse</module>
         <module>security-intro</module>
         <module>security-basics</module>
     </modules>
