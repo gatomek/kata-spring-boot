@@ -8,13 +8,5 @@ import org.springframework.stereotype.Component;
 @Setter
 @Component
 public class TempRegister {
-    private Integer temp;
-
-    public Integer getTemp() {
-        return temp;
-    }
-
-    public void setTemp(Integer temp) {
-        this.temp = temp;
-    }
+    private int temp = 0;
 }
