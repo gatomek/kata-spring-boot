@@ -22,5 +22,6 @@
         <module>thymeleaf-thermo-sse</module>
         <module>security-intro</module>
         <module>security-basics</module>
+        <module>amqp-producer</module>
     </modules>
 </project>
