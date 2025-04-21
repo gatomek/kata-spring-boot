@@ -1,4 +1,4 @@
-package pl.gatomek.amqp.config;
+package pl.gatomek.amqp.producer.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.amqp.core.Binding;
@@ -7,7 +7,7 @@ import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.core.TopicExchange;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import pl.gatomek.amqp.properties.RabbitProperties;
+import pl.gatomek.amqp.producer.properties.RabbitProperties;
 
 @Configuration
 @RequiredArgsConstructor

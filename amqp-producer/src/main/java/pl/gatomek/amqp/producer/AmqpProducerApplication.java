@@ -1,13 +1,13 @@
-package pl.gatomek.amqp;
+package pl.gatomek.amqp.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AmqpApplication {
+public class AmqpProducerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AmqpApplication.class, args);
+        SpringApplication.run(AmqpProducerApplication.class, args);
     }
 
 }
