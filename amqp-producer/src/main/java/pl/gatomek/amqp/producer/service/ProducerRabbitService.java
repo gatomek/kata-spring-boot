@@ -1,12 +1,12 @@
-package pl.gatomek.amqp.service;
+package pl.gatomek.amqp.producer.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.AmqpException;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
-import pl.gatomek.amqp.model.UuidMessage;
-import pl.gatomek.amqp.properties.RabbitProperties;
+import pl.gatomek.amqp.producer.properties.RabbitProperties;
+import pl.gatomek.amqp.common.model.UuidMessage;
 
 @RequiredArgsConstructor
 @Service

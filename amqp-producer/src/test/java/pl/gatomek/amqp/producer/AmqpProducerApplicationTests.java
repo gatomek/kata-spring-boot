@@ -1,4 +1,4 @@
-package pl.gatomek.amqp;
+package pl.gatomek.amqp.producer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,7 +9,7 @@ import org.testcontainers.lifecycle.Startables;
 import org.testcontainers.utility.DockerImageName;
 
 @SpringBootTest
-class AmqpApplicationTests {
+class AmqpProducerApplicationTests {
 
     private static final RabbitMQContainer rabbitMQContainer =
             new RabbitMQContainer(DockerImageName.parse("rabbitmq:4.1.0-alpine"));

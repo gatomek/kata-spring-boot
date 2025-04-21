@@ -1,4 +1,4 @@
-package pl.gatomek.amqp.properties;
+package pl.gatomek.amqp.producer.properties;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
