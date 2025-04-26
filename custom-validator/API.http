@@ -1,0 +1,9 @@
+### request with supported uuid version
+GET http://localhost:8080/api/uuid/4
+
+###
+
+### request with unsupported uuid version
+GET http://localhost:8080/api/uuid/3
+
+###

@@ -25,5 +25,6 @@
         <module>amqp-producer</module>
         <module>amqp-consumer</module>
         <module>amqp-common</module>
+        <module>custom-validator</module>
     </modules>
 </project>
