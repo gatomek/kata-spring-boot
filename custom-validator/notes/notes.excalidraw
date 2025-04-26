@@ -1,0 +1,146 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw-jetbrains-plugin",
+  "elements": [
+    {
+      "id": "vAEEZ2HJRqh7KCLYroxRl",
+      "type": "text",
+      "x": 152.11111111111114,
+      "y": 238.77777777777783,
+      "width": 577.3795776367188,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1833381862,
+      "version": 88,
+      "versionNonce": 843925222,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "Vetb9W6ovfds3vOLnjtUA",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1745523053342,
+      "link": null,
+      "locked": false,
+      "text": "How can i change return http status by validation error ?",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "How can i change return http status by validation error ?",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "I9jPSaadliBc87ti9tjCE",
+      "type": "text",
+      "x": 839,
+      "y": 171,
+      "width": 284.6597900390625,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 31736614,
+      "version": 54,
+      "versionNonce": 802253370,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "Vetb9W6ovfds3vOLnjtUA",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1745523045636,
+      "link": null,
+      "locked": false,
+      "text": "not to be 400 Bad Request",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "not to be 400 Bad Request",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "Vetb9W6ovfds3vOLnjtUA",
+      "type": "arrow",
+      "x": 735.2511257595487,
+      "y": 241.411012474552,
+      "width": 94.7488742404513,
+      "height": 56.774641404164015,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 2147282534,
+      "version": 44,
+      "versionNonce": 766068070,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1745523053344,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          94.7488742404513,
+          -56.774641404164015
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "vAEEZ2HJRqh7KCLYroxRl",
+        "focus": 0.8965330897825765,
+        "gap": 5.76043701171875
+      },
+      "endBinding": {
+        "elementId": "I9jPSaadliBc87ti9tjCE",
+        "focus": 0.9156987075050825,
+        "gap": 9
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
