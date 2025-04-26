@@ -15,6 +15,6 @@ public class Runner implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        log.info( "uuid.version: {}", uuidConfig.getVersion());
+        log.info("uuid.version: {}", uuidConfig.getVersion());
     }
 }

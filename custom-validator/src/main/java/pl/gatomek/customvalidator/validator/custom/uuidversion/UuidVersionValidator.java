@@ -7,12 +7,12 @@ public class UuidVersionValidator implements ConstraintValidator<UuidVersionCons
     @Override
     public boolean isValid(Integer version, ConstraintValidatorContext context) {
         if (version == null)
-            return raiseConstraintViolation(context, "UUID version is null");
+            return true;
 
-        if (!version.equals(4))
-            return raiseConstraintViolation(context, "UUID version " + version + " is unsupported");
+        if (version.equals(4))
+            return true;
 
-        return true;
+        return raiseConstraintViolation(context, "UUID version " + version + " is unsupported");
     }
 
     private boolean raiseConstraintViolation(ConstraintValidatorContext context, String text) {
