@@ -1,3 +1,5 @@
+### /api/uuid ######################################################################
+
 ### request with supported uuid version
 GET http://localhost:8080/api/uuid/4
 
@@ -5,5 +7,27 @@ GET http://localhost:8080/api/uuid/4
 
 ### request with unsupported uuid version
 GET http://localhost:8080/api/uuid/3
+
+###
+
+### request with unsupported uuid version
+GET http://localhost:8080/api/uuid
+
+###
+
+### /api/uuid2 ######################################################################
+
+### request with unsupported uuid version
+GET http://localhost:8080/api/uuid2
+
+###
+
+### request with unsupported uuid version
+GET http://localhost:8080/api/uuid2?v=4
+
+###
+
+### request with unsupported uuid version
+GET http://localhost:8080/api/uuid2?v=3
 
 ###

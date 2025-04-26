@@ -25,9 +25,9 @@ public class GlobalErrorHandler {
     public void handleValidationErrors(HandlerMethodValidationException ex) {
         List<ParameterValidationResult> parameterValidationResults = ex.getParameterValidationResults();
         parameterValidationResults.forEach(result ->
-            result.getResolvableErrors().forEach(e ->
-                log.error(e.getDefaultMessage())
-            )
+                result.getResolvableErrors().forEach(e ->
+                        log.error(e.getDefaultMessage())
+                )
         );
     }
 }
