@@ -26,5 +26,6 @@
         <module>amqp-consumer</module>
         <module>amqp-common</module>
         <module>custom-validator</module>
+        <module>custom-rest-converter</module>
     </modules>
 </project>
