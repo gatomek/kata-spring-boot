@@ -1,0 +1,9 @@
+### POST request to example server
+POST http://localhost:8080/api/person/create?person=gatomek,18,male
+
+###
+
+### POST request to example server
+POST http://localhost:8080/api/person/create2?name=gatomek&age=18&sex=male
+
+###

@@ -1,0 +1,9 @@
+## Links
+* https://www.baeldung.com/spring-type-conversions
+* https://www.baeldung.com/spring-mvc-custom-data-binder
+* https://medium.com/trabe/improve-your-argument-resolvers-using-filters-4089b28e53f3
+* https://medium.com/trabe/make-spring-mvc-work-for-you-injecting-custom-method-arguments-fc68934cabeb
+* https://www.petrikainulainen.net/programming/spring-framework/spring-from-the-trenches-creating-a-custom-handlermethodargumentresolver/
+* **https://medium.com/trabe/improve-your-argument-resolvers-using-filters-4089b28e53f3***
+* https://docs.spring.io/spring-amqp/reference/amqp/receiving-messages/async-annotation-driven/custom-argument-resolver.html
+* **https://www.baeldung.com/spring-mvc-custom-data-binder**
