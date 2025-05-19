@@ -27,5 +27,6 @@
         <module>amqp-common</module>
         <module>custom-validator</module>
         <module>custom-rest-converter</module>
+        <module>many-ports-app</module>
     </modules>
 </project>
