@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class RandomNumberServiceConfig {
 
     @Bean
-    public RandomNumberService randomNumberService() {
+    RandomNumberService randomNumberService() {
         return new RandomNumberService();
     }
 }
