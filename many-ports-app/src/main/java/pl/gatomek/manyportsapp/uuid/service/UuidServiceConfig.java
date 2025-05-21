@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class UuidServiceConfig {
     @Bean
-    public UuidService uuidService() {
+    UuidService uuidService() {
         return new UuidService();
     }
 }
