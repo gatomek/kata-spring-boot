@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import pl.gatomek.manyportsapp.filter.InternalApiFilter;
 
 @Configuration
-public class AppConfig {
+class AppConfig {
 
     @Bean
     public InternalApiFilter internalApiFilter() {

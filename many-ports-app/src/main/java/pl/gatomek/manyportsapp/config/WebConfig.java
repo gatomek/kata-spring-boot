@@ -7,7 +7,7 @@ import org.springframework.boot.web.server.WebServerFactoryCustomizer;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class WebConfig implements WebServerFactoryCustomizer<TomcatServletWebServerFactory> {
+class WebConfig implements WebServerFactoryCustomizer<TomcatServletWebServerFactory> {
 
     @Override
     public void customize(TomcatServletWebServerFactory factory) {
