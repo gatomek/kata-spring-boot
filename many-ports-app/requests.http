@@ -8,13 +8,12 @@ GET http://localhost:5555/api/uuid
 
 ###
 
-
 ### GET request to example server
-GET http://localhost:8080/api/rand
+GET http://localhost:8080/api/random
 
 ###
 
 ### GET request to example server
-GET http://localhost:5555/api/rand
+GET http://localhost:5555/api/random
 
 ###
