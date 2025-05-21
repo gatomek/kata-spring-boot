@@ -9,5 +9,4 @@ class ManyPortsAppApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }
