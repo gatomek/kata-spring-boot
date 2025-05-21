@@ -7,9 +7,11 @@ import org.springframework.context.annotation.ComponentScan;
 
 @ComponentScan(
         basePackages = {
-                "pl.gatomek.manyportsapp.config",
+                "pl.gatomek.manyportsapp.random.service",
                 "pl.gatomek.manyportsapp.random.rest",
-                "pl.gatomek.manyportsapp.uuid.rest"
+                "pl.gatomek.manyportsapp.uuid.service",
+                "pl.gatomek.manyportsapp.uuid.rest",
+                "pl.gatomek.manyportsapp.config"
         })
 @EnableAutoConfiguration
 @SpringBootConfiguration
