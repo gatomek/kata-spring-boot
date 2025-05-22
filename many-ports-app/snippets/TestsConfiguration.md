@@ -39,7 +39,9 @@ public class ManyPortsAppApplication {
 ```
 
 ```java
-@SpringBootTest(classes = {pl.gatomek.manyportsapp.ManyPortsAppApplication.class})
+import pl.gatomek.manyportsapp.ManyPortsApplication;
+
+@SpringBootTest(classes = {ManyPortsApplication.class})
 class ManyPortsAppApplicationTests {
     @Test
     void contextLoads() {

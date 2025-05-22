@@ -16,9 +16,9 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableAutoConfiguration
 @SpringBootConfiguration
 
-public class ManyPortsAppApplication {
+public class ManyPortsApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ManyPortsAppApplication.class, args);
+        SpringApplication.run(ManyPortsApplication.class, args);
     }
 }
 

@@ -1,0 +1,446 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw-jetbrains-plugin",
+  "elements": [
+    {
+      "id": "nHzUEmEdyb9eAdXGsfSiN",
+      "type": "text",
+      "x": -168.66666666666669,
+      "y": 33.66666666666663,
+      "width": 371.4996337890625,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1286439829,
+      "version": 18,
+      "versionNonce": 1423746453,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1747928018298,
+      "link": null,
+      "locked": false,
+      "text": "https://spring.io/guides/gs/testing-web",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "https://spring.io/guides/gs/testing-web",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "6kORYhnIyYT7FFCBGz1LA",
+      "type": "text",
+      "x": 1211.3491184205961,
+      "y": 99.16111048304955,
+      "width": 257.3997802734375,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 584540757,
+      "version": 73,
+      "versionNonce": 1985166709,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "VjLqVT7-SkcLvbey-lnlH",
+          "type": "arrow"
+        },
+        {
+          "id": "3qQwP2UADiRBYM3HJNi0P",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1747928737225,
+      "link": null,
+      "locked": false,
+      "text": "a main configuration class",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "a main configuration class",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "umjpTcxrM-7m2b31noznq",
+      "type": "text",
+      "x": 229,
+      "y": 228,
+      "width": 2661.091064453125,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "Ml-YHohx9EBcAbnugUg_n"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1472350453,
+      "version": 48,
+      "versionNonce": 419053691,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1747928734622,
+      "link": null,
+      "locked": false,
+      "text": "The @SpringBootTest annotation tells Spring Boot to look for a main configuration class (one with @SpringBootApplication, for instance) and use that to start a Spring application context. ",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 25,
+      "containerId": null,
+      "originalText": "The @SpringBootTest annotation tells Spring Boot to look for a main configuration class (one with @SpringBootApplication, for instance) and use that to start a Spring application context. ",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "R7mPrr_oIW57D6Jcp9DHy",
+      "type": "rectangle",
+      "x": 1110.206349206349,
+      "y": 226.44444444444437,
+      "width": 374.8319537053925,
+      "height": 39.99999999999997,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "Ml-YHohx9EBcAbnugUg_n"
+      ],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1925337013,
+      "version": 166,
+      "versionNonce": 992237749,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "3qQwP2UADiRBYM3HJNi0P",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1747928734622,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "N1JStq9W59oDjML9D_9lV",
+      "type": "text",
+      "x": 1461.5110652626217,
+      "y": 2.3865211257993337,
+      "width": 252.8197784423828,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 2020129691,
+      "version": 58,
+      "versionNonce": 1709563925,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "VjLqVT7-SkcLvbey-lnlH",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1747928738459,
+      "link": null,
+      "locked": false,
+      "text": "start application context",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "start application context",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "VjLqVT7-SkcLvbey-lnlH",
+      "type": "arrow",
+      "x": 1352.5526749786404,
+      "y": 94.47755742315357,
+      "width": 99.40079946779406,
+      "height": 62.326499152731124,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 546121467,
+      "version": 157,
+      "versionNonce": 1308794581,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1747928738460,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          99.40079946779406,
+          -62.326499152731124
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "6kORYhnIyYT7FFCBGz1LA",
+        "focus": -0.10370263147285781,
+        "gap": 4.683553059895985
+      },
+      "endBinding": {
+        "elementId": "N1JStq9W59oDjML9D_9lV",
+        "focus": 0.7409410288137783,
+        "gap": 10.679342508420632
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "3qQwP2UADiRBYM3HJNi0P",
+      "type": "arrow",
+      "x": 1334.6661150746236,
+      "y": 214.57936507936495,
+      "width": 24.366643002621913,
+      "height": 82.52142919948994,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 983932789,
+      "version": 303,
+      "versionNonce": 1731353333,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1747928737226,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          24.366643002621913,
+          -82.52142919948994
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "R7mPrr_oIW57D6Jcp9DHy",
+        "gap": 11.86507936507941,
+        "focus": 0.1467661317030677
+      },
+      "endBinding": {
+        "elementId": "6kORYhnIyYT7FFCBGz1LA",
+        "gap": 7.896825396825449,
+        "focus": -0.18888355454795053
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    },
+    {
+      "id": "PAsY8w1eCNpgc6UFjLXiZ",
+      "type": "text",
+      "x": 222.3611111111112,
+      "y": 361.79365079365056,
+      "width": 1401.9593505859375,
+      "height": 70,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1647994811,
+      "version": 65,
+      "versionNonce": 1258617659,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "xO76OOWyYQrvfQH4kbLWs",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1747928699342,
+      "link": null,
+      "locked": false,
+      "text": "\nA nice feature of the Spring Test support is that the application context is cached between tests.",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 60,
+      "containerId": null,
+      "originalText": "\nA nice feature of the Spring Test support is that the application context is cached between tests.",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "XydPd5wasmpzLXq0mnFW3",
+      "type": "text",
+      "x": 1823.968253968254,
+      "y": 342.7936507936506,
+      "width": 160.23983764648438,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1916503963,
+      "version": 90,
+      "versionNonce": 1853514459,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "xO76OOWyYQrvfQH4kbLWs",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1747928752015,
+      "link": "https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/annotation/DirtiesContext.html",
+      "locked": false,
+      "text": "@DirtiesContext",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "@DirtiesContext",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "xO76OOWyYQrvfQH4kbLWs",
+      "type": "arrow",
+      "x": 1627.5284956674727,
+      "y": 412.88168895957665,
+      "width": 185.43975830078125,
+      "height": 49.99454919929724,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 814571611,
+      "version": 235,
+      "versionNonce": 1428354389,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1747928708997,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          185.43975830078125,
+          -49.99454919929724
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "PAsY8w1eCNpgc6UFjLXiZ",
+        "focus": 0.9194269712465741,
+        "gap": 3.2080339704239123
+      },
+      "endBinding": {
+        "elementId": "XydPd5wasmpzLXq0mnFW3",
+        "focus": 0.49772065043278596,
+        "gap": 11
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow"
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
