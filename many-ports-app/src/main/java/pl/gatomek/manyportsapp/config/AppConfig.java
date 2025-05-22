@@ -8,7 +8,7 @@ import pl.gatomek.manyportsapp.filter.InternalApiFilter;
 class AppConfig {
 
     @Bean
-    public InternalApiFilter internalApiFilter() {
-        return new InternalApiFilter();
+    public InternalApiFilter internalApiFilter(CustomConfig customConfig) {
+        return new InternalApiFilter(customConfig);
     }
 }
