@@ -28,5 +28,6 @@
         <module>custom-validator</module>
         <module>custom-rest-converter</module>
         <module>many-ports-app</module>
+        <module>actuator</module>
     </modules>
 </project>
